@@ -15,7 +15,7 @@ app.use('/tareas', require('./routes/tareas'));
 app.use('/asignaciones', require('./routes/asignaciones'));
 app.use('/seguimiento', require('./routes/seguimiento'));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en puerto ${PORT}`);
 });
