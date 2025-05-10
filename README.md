@@ -2,6 +2,7 @@ Endpoints de la API
 
 
 Usuarios
+
 api/usuarios – Obtener todos los usuarios.
 
 api/usuarios/:id – Obtener un usuario por ID.
@@ -14,6 +15,7 @@ api/usuarios/:id – Eliminar un usuario.
 
 
 Proyectos
+
 api/proyectos – Obtener todos los proyectos.
 
 api/proyectos/:id – Obtener un proyecto por ID.
@@ -26,6 +28,7 @@ api/proyectos/:id – Eliminar un proyecto.
 
 
 Tareas
+
 api/tareas – Obtener todas las tareas.
 
 api/tareas/:id – Obtener una tarea por ID.
@@ -38,6 +41,7 @@ api/tareas/:id – Eliminar una tarea.
 
 
 Asignaciones
+
 api/asignaciones – Obtener todas las asignaciones.
 
 api/asignaciones/:id – Obtener una asignación por ID.
@@ -48,6 +52,7 @@ api/asignaciones/:id – Eliminar una asignación.
 
 
 Seguimiento
+
 api/seguimiento – Obtener todo el seguimiento.
 
 api/seguimiento/:id – Obtener un seguimiento por ID.
