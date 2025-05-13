@@ -28,7 +28,6 @@ app.use('/api/asignaciones', asignacionesRouter);
 app.use('/api/seguimiento', seguimientoRouter);
 
 // Arranque del servidor
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en puerto ${PORT}`);
+app.listen(process.env.PORT || 3000, () => {
+  console.log('Server is running on port 3000');
 });
